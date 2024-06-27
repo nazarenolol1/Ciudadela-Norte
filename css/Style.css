@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+header {
+    background-color: #c02525;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#presentacion {
+    text-align: center;
+    padding: 50px;
+}
+
+#presentacion h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#presentacion p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#presentacion .boton {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#galeria {
+    padding: 50px;
+}
+
+#galeria img {
+    width: 250px;
+    height: 650px;
+    margin: 10px;
+}
+
+#contacto{
+    text-align: center;
+    padding: 50px;
+    margin: 30px;
+}
+#contacto form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#contacto button{
+
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    header h1{
+        text-align: center;
+    }
+    #contacto {
+        padding: 20px;
+    }
+    #contacto form {
+        width: 100%;
+    }
+}
