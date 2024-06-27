@@ -5,11 +5,17 @@ body {
 }
 
 header {
+    display: flex;
     background-color: #c02525;
     color: #fff;
-    padding: 20px;
+    align-items: center;
+    height: 70px;
+    flex-wrap:wrap;
 }
 
+nav{
+    text-align: end;
+}
 nav ul {
     list-style: none;
     margin: 0;
@@ -103,4 +109,12 @@ footer a {
     #contacto form {
         width: 100%;
     }
+    header img{
+        margin: auto;
+    }
+}
+header img{
+ display: block;
+ margin-left: auto;
+ width: 70px;
 }
